@@ -1,0 +1,28 @@
+<%#
+Embraces a block of text within a fully customizable panel. The optional parameters you can define are the following ones:
+
+    title: Title of the panel
+    borderStyle: The style of the border this panel uses (solid, dashed and other valid CSS border styles)
+    borderColor: The color of the border this panel uses
+    borderWidth: The width of the border this panel uses
+    bgColor: The background color of this panel
+    titleBGColor: The background color of the title section of this panel
+
+Example:
+My Title
+a block of text surrounded with a panel
+yet another line
+
+
+    
+%>
+
+
+{panel:borderStyle=<%= border_style %>|borderColor=<%= border_color %>|titleBGColor=<%= title_bg_color %>|bgColor=<%= bg_color %>|
+title=
+<%= scen_title %>
+}
+
+{panel}
+
+# {color:#{color}}#{text}{color}
