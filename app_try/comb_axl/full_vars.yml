@@ -1,0 +1,155 @@
+ASSETS:
+  - DDA
+  - IRA - OMNI
+  - IRA - Time Deposit
+  - Dodd-Frank Derivatives
+  - Phase III/Margin
+  - Equities
+  - Fixed Income
+  - Mutual Funds
+  - Structured Products
+  - Alternative Investments
+  - Cash
+  - MMIAs
+  - CDs
+  - Time Deposits
+  - Other
+  - MISC_TRADABLES:
+    - Any security held away
+
+  - MISC_COLLATERALS:
+    - General Misc Collateral
+    - Fixed Assets
+    - Life Insurance
+    - Hedge Funds
+    - Artwork
+    - Held at Third Party
+    - Real Estate
+    - SBLC - External
+    - SBLC - Internal
+    - Time Deposits
+    - Collateral Held Away - Internal
+
+LIABILITIES:
+  - Loans
+  - Letters of Credit
+  - Derivatives
+  - Other Liabilities
+  - Additional Exposure
+
+REGIONS:
+  - JIB
+  - MIL
+  - FRA
+  - GVA
+  - CDG
+  - SNG
+  - HongKong
+  - LON
+  - SAO
+  - NYC
+
+  - PBA
+  - US and Other (NYC?)
+  - SAO
+  - OMX Mexico
+  - OCX Chile
+
+
+PLEDGES:
+  - SINGLE_CLIENT_PLEDGES:
+    - Single Accounting Platform
+    - Multiple Accounting Platforms
+    - Misc. Collateral
+    - Misc. Tradables
+    - Mulitple Asset Combinations
+    - Derivative Exposure Only
+    - Mulitple Exposure Types Including Derivatives
+    - Multiple Exposure Types Without Derivatives
+    - Additional Exposure
+    - Liability Combinations
+    - PBA Only - Non-Purpose Credit
+    - PBA Only - Purpose Credit
+    - PBA Only - Purpose & Non-Purpose Credit Combination
+    - Percentage of Assets In Account
+    - Specific Positions
+    - Specifc Position - Percentage
+    - Specifc Position - Percentage - Multiple Accounts
+    - Specifc Position - Number of Shares
+    - Cross Platform
+    - Cross Region
+
+  - WHOLE_PLEDGE:
+    - Arrangement/Account to Arrangement
+    - Percentage of Account
+    - Fixed Amount of Account
+    - Whole Account
+    - Arrangement/Position to Arrangement
+    - Specific Asset(s) - Number of shares
+    - Specific Asset(s) - Percentage of Position
+    - Specific Asset(s) - Amount of Position
+    - Specific Asset(s) - Whole Position
+
+  - UNLIMITED_PLEDGES:
+    - Arrangement to Arrangement
+    - Arrangement/Account to Arrangement
+    - Arrangement/Position to Arrangement
+
+  - LIMITED_PLEDGES:
+    - Arrangement to Arrangement
+    - Percentage of Arrangement
+    - Fixed Amount of Arrangement
+    - Arrangement/Account to Arrangement
+    - Percentage of Account
+    - Fixed Amount of Account
+    - Arrangement/Position to Arrangement
+    - Specific Asset(s) - Number of shares
+    - Specific Asset(s) - Percentage of Position
+    - Specific Asset(s) - Amount of Position
+
+OVERRIDES:
+  - ARRANGEMENT LEVEL:
+    - SLV Delta
+    - LV Cap %
+    - Netting
+    - Option Mode
+    - LV on MUNIS
+    - Haircut
+    - Currency Haircut
+    - '% Override for Currency'
+
+  - Account Level:
+    - SLV %
+    - SLV Delta %
+    - LV Cap Amount
+    - LVC Cap %
+    - LV Cap Quantity
+    - LV on MUNIS
+    - LV on Cash
+
+  - Client/Asset Class:
+    - SLV Delta %
+
+  - Arrangement Account/Asset Class:
+    - SLV Delta %
+
+  - Position Level:
+    - SLV %
+    - SLV Delta %
+    - MV Cap %
+    - MV Cap Amount
+    - LV Cap %
+    - LV Cap Amount
+    - LV Cap Quantity
+    - AFTV
+    - Price Floor
+    - LV on MUNIS
+    - LV on Cash
+    - Haircut %
+
+Platforms:
+  - ECD
+  - OMNI Trust
+  - Olympic
+  - Phase 3
+  - SCPP
